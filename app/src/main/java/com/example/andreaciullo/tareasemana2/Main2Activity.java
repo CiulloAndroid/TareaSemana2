@@ -51,6 +51,7 @@ public class Main2Activity extends AppCompatActivity {
                 intent.putExtra(getResources().getString(R.string.tituloDescripcion),tvDescripcionCon.getText().toString());
                 intent.putExtra(getResources().getString(R.string.tituloFechaNac),tvFechaNacCon.getText().toString());
                 startActivity(intent);
+                finish();
             }
         });
     }

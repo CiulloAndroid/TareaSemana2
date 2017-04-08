@@ -62,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
                 mfecha = formatoDelTexto.parse(fechanac);
 
-                String dayOfTheWeek = (String) DateFormat.format("EEEE", mfecha); // Thursday
+               // String dayOfTheWeek = (String) DateFormat.format("EEEE", mfecha); // Thursday
                 String day          = (String) DateFormat.format("dd",   mfecha); // 20
-                String monthString  = (String) DateFormat.format("MMM",  mfecha); // Jun
+               // String monthString  = (String) DateFormat.format("MMM",  mfecha); // Jun
                 String monthNumber  = (String) DateFormat.format("MM",   mfecha); // 06
                 String year         = (String) DateFormat.format("yyyy", mfecha); // 2013
 
@@ -73,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
                 int año  = Integer.parseInt(year);
 
                 // set selected date into datepicker also
-                  dtFechaNac.init(año, mes,  dia, null);
+                //  dtFechaNac.init(año, mes,  dia, null);
+                dtFechaNac.updateDate(año,mes-1,dia);
 
             } catch (ParseException ex) {
 
@@ -130,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(getResources().getString(R.string.tituloDescripcion),etDescripcion.getText().toString());
                 intent.putExtra(getResources().getString(R.string.tituloFechaNac),fecha.toString());
                 startActivity(intent);
+                finish();
             }
         });
 

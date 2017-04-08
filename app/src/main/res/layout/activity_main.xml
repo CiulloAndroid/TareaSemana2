@@ -17,87 +17,79 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true">-->
-        <RelativeLayout
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNombreCompleto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-    <EditText
-        android:id="@+id/etNombreCompleto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/tituloNombreCompleto"/>
-            <TextView
-                android:id="@+id/tvFechNac"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_below="@+id/etNombreCompleto"
-                android:hint="@string/tituloFechaNac"/>
+            android:hint="@string/tituloNombreCompleto" />
 
-            <DatePicker
-                android:id="@+id/dtFechaNac"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/tvFechNac"
-                android:layout_below="@+id/tvFechNac"
-                android:layout_centerHorizontal="true"
-                android:layout_centerInParent="false"
-                android:layout_centerVertical="false"
-                android:clickable="true"
-                android:datePickerMode="spinner"
-                android:spinnersShown="true"
-                android:splitMotionEvents="true"
-                android:tag="@string/tituloFechaNac"
-                tools:calendarViewShown="false"
-                tools:labelFor="@+id/tvFechNac"
-                android:layout_marginTop="15dp">
+        <DatePicker
+            android:id="@+id/dtFechaNac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/etNombreCompleto"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:contentDescription="@string/tituloFechaNac"
+            android:scrollIndicators="right"
+            android:scrollbars="horizontal|vertical"
+            android:spinnersShown="true"
+            android:startYear="1900"
+            tools:isScrollContainer="true" />
 
-            </DatePicker>
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dtFechaNac"
+            android:hint="@string/tituloTel"
+            android:inputType="phone" />
 
-    <EditText
-        android:id="@+id/etTelefono"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/dtFechaNac"
-        android:inputType="phone"
-        android:hint="@string/tituloTel"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etTelefono"
+            android:hint="@string/tituloEmail"
+            android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/etEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/etTelefono"
-        android:inputType="textEmailAddress"
-        android:hint="@string/tituloEmail"/>
+        <TextView
+            android:id="@+id/tituloDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginTop="10dp"
+            android:hint="@string/tituloDescripcion"
+            android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/tituloDescripcion"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/etEmail"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"
-                android:hint="@string/tituloDescripcion"/>
-    <EditText
-        android:id="@+id/etDescripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tituloDescripcion"
-        android:inputType="text"
-       />
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tituloDescripcion"
+            android:inputType="text" />
 
 
-    <Button
-        android:id="@+id/btnSiguiente"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btnSiguiente"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="false"
-        android:layout_below="@+id/etDescripcion"
-        style="@style/Widget.AppCompat.Button.Colored" />
-        </RelativeLayout>
+        <Button
+            android:id="@+id/btnSiguiente"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/etDescripcion"
+            android:text="@string/btnSiguiente" />
+
+
+    </RelativeLayout>
 
     </ScrollView>
 <!--</RelativeLayout>-->
