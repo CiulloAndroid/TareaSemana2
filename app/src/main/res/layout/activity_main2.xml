@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.andreaciullo.tareasemana2.Main2Activity">
+
+
+<!--    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloConfirmarDatos"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvNombreCompleto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloNombreCompleto"
+                android:layout_below="@+id/tvTitulo"
+                android:layout_marginTop="17dp"
+                />
+
+
+            <TextView
+                android:id="@+id/tvTelCont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvFechNacCont"
+                android:layout_alignLeft="@+id/tvFechNacCont"
+                android:layout_alignStart="@+id/tvFechNacCont"
+                android:layout_marginTop="17dp" />
+
+            <TextView
+                android:id="@+id/tvTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloTel"
+                android:layout_alignBaseline="@+id/tvTelCont"
+                android:layout_alignBottom="@+id/tvTelCont"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:id="@+id/tvFechNac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloFechaNac"
+                android:layout_alignBaseline="@+id/tvFechNacCont"
+                android:layout_alignBottom="@+id/tvFechNacCont"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tvFechNacCont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_below="@+id/tvNombreCompleto"
+                android:layout_toRightOf="@+id/tvFechNac"
+                android:layout_toEndOf="@+id/tvFechNac"
+                android:layout_marginTop="16dp" />
+
+
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloDescripcion"
+                android:layout_below="@+id/tvEmailCont"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloEmail"
+                android:layout_below="@+id/tvTel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="18dp" />
+
+            <TextView
+                android:id="@+id/tvEmailCont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvEmail"
+                android:layout_alignBottom="@+id/tvEmail"
+                android:layout_alignLeft="@+id/tvTelCont"
+                android:layout_alignStart="@+id/tvTelCont" />
+
+            <TextView
+                android:id="@+id/tvDescripcionCont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvDescripcion"
+                android:layout_alignBottom="@+id/tvDescripcion"
+                android:layout_alignLeft="@+id/tvEmailCont"
+                android:layout_alignStart="@+id/tvEmailCont" />
+
+            <Button
+                android:id="@+id/btnEditarDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnEditarDatos"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvDescripcionCont"
+                android:layout_marginTop="17dp"
+                style="@style/Widget.AppCompat.Button.Colored" />
+        </RelativeLayout>
+
+    </ScrollView>
+<!--</RelativeLayout>-->

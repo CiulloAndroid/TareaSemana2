@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\ffb3b5c9833c83350a130d3e921ec7beafc7d847\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75e1d5b17023957fadb2cf3798de9e0ff3c5fe47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\d5803c55012f1934af5972284120bc10419515a8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c4e3cefdce2690e902b93306029c55f83dcfc3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c1cbd15fb5cf4910bc6143a584a0d18b6a1dbd2">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f8358cd9ed0dc7d35d1d132196718127e1bce77d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\bc8e2a23e52521d5dbff2c978e393dae320c1619\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7070b2c1babde4d8607565f6013f00fc745e90a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\52a854075079465e747a6715eb09cb1d82669db6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e1953703848f5eaab207aeb0dd17510172fc53c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\24e0cc9c6921cbebc28e5c4a3a62e1fa15463295\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac68485e8ad457a8e0edeebbda228d64e9053b70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\f2172d30323697cf575d4eb218b066c7669947e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fcda33c1235aa6a2c3d1260b14a49a04b5efab0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\49848b478fddd2789376770a0034b66f5144de59\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0287471b9e7a4ad45ecd69004efe2a85d90d8787\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\a775f87fd1192c1168f457877f1573a3b7423b55\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_48e6b5c7771885d8c5f36e901e1d21db83a0f37a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\8c20db40cb0971059217f3a2641a4540e1f4f1e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f050198ace4204cb45300ca2d08a39ee31f4c1df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_89f278fe1396bdb424589ba87033fbf2ee16a57d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\ea78ccf4a4d8baf60e3dc4b9e4cfbd13af62a1da\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6def57e0d35767c61d8bb95401ecccadf4061936\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\0bc1e21fb849d9fbd4632d606fa28eb63f5265c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6301ae36d980ba6285874b6ed1361f4f9b661a4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e35770d703452235965523b3ab34a630b7eb3263\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TIE FIGHTER\.android\build-cache\11c846301a328415197342bb3b366241dd1d6719\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="E:\Andrea Ciullo\AndroidStudioProjects\TareaSemana2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b18738436ff53b1bc1548fed300cf6d163111f7a\classes.dex" />
+    </item>
+
+</items>
